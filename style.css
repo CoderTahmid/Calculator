@@ -1,0 +1,49 @@
+/* common styles */
+.vh-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 500px;
+    width: 300px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.calc-display{
+    border: none;
+    grid-column: span 4;
+    border-radius: 10px;
+    background-color: skyblue;
+    font-size: 30px;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.display-txt{
+    margin-right: 20px;
+}
+.calc-button{
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calc-button:active{
+    background-color: rgba(255, 192, 203, 0.5);
+}
+.calc-button:hover{
+    cursor: pointer;
+}
+.clear-button{
+    background-image: url('clear\ button\ img.png');
+    background-size: cover;
+    background-position: center;
+}
+.clear-button:active{
+    background-image: linear-gradient(rgba(255, 192, 203, 0.1), rgba(255, 192, 203, 0.1));
+}
