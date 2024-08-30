@@ -40,7 +40,6 @@ main{
     cursor: pointer;
 }
 .clear-button{
-    background-image: url('clear\ button\ img.png');
     background-size: cover;
     background-position: center;
 }
